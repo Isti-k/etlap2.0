@@ -1,10 +1,11 @@
 import kozos_eljaras
-def foetel():
+import main
+def foetel(jel, etlap_meret):
     ar1: int=0
     valasztott_etel=""
-    kozos_eljaras.csillagok("*", 36)#32 csillag fejléc
+    kozos_eljaras.csillagok(jel, etlap_meret)#32 csillag fejléc
     kerfoetelt:str=input("Kér Főételt? I/N: ")
-    kozos_eljaras.csillagok("*", 36)#32 csillag fejléc
+    kozos_eljaras.csillagok(jel, etlap_meret)#32 csillag fejléc
     elso_foetel:str="1. Rakottkrumpli"
     elso:int=300
     masodik_foetel:str="2. Spenotos tészta"
@@ -25,10 +26,10 @@ def foetel():
     else:
         valasztott_etel= masodik_foetel
 
-def leves():
+def leves(jel, etlap_meret):
     valasztott_etel2 =""
     ar2: int=0
-    kozos_eljaras.csillagok("*", 36)#36 csillag fejléc
+    kozos_eljaras.csillagok(jel, etlap_meret)#36 csillag fejléc
     kerlevest:str=input("Kér Levest? I/N: ")
     elso_leves:str="1. Franciahagyma leves"
     elso:int=300
