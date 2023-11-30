@@ -1,4 +1,3 @@
-
 #Levente rendelés összesités
 #főcim eljaras1
 def focim(jel, db):
@@ -19,7 +18,6 @@ def rendeles_etel(szoveg, szam):
 
 def foetelek(szöveg, db):
     print()
-
 
 
 
