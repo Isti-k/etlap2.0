@@ -43,7 +43,7 @@ kozos_eljaras.focim("*", etlap_meret)
 kozos_eljaras.szoveg_kiiaras("*", "Rendelés", "*")
 kozos_eljaras.focim("*", etlap_meret)
 
-kozos_eljaras.foetelek(f"",etel_ar[0]+"Ft")
+kozos_eljaras.foetelek(etel_ar[0],db=0)
 kozos_eljaras.foetelek(etel_lista[0], etel_ar[0])
 
 kozos_eljaras.focim("*", etlap_meret)
